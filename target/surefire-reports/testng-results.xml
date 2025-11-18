@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-18T16:44:48 IST" name="Suite" finished-at="2025-11-18T16:45:12 IST" duration-ms="24533">
+    <groups>
+    </groups>
+    <test started-at="2025-11-18T16:44:48 IST" name="Test" finished-at="2025-11-18T16:45:12 IST" duration-ms="24533">
+      <class name="MyTestNGPackage.MyTestNGClass7">
+        <test-method is-config="true" signature="bt()[pri:0, instance:MyTestNGPackage.MyTestNGClass7@3cebbb30]" started-at="2025-11-18T16:44:48 IST" name="bt" finished-at="2025-11-18T16:44:54 IST" duration-ms="6403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="login()[pri:0, instance:MyTestNGPackage.MyTestNGClass7@3cebbb30]" started-at="2025-11-18T16:44:54 IST" name="login" finished-at="2025-11-18T16:44:58 IST" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="function(java.lang.String,java.lang.String)[pri:0, instance:MyTestNGPackage.MyTestNGClass7@3cebbb30]" started-at="2025-11-18T16:44:58 IST" name="function" finished-at="2025-11-18T16:45:09 IST" duration-ms="10679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:MyTestNGPackage.MyTestNGClass7@3cebbb30]" started-at="2025-11-18T16:45:09 IST" name="logout" finished-at="2025-11-18T16:45:12 IST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="at()[pri:0, instance:MyTestNGPackage.MyTestNGClass7@3cebbb30]" started-at="2025-11-18T16:45:12 IST" name="at" finished-at="2025-11-18T16:45:12 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- MyTestNGPackage.MyTestNGClass7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
