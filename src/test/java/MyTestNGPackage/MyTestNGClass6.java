@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -11,10 +12,13 @@ import org.testng.annotations.BeforeTest;
 public class MyTestNGClass6 {
   WebDriver driver;
   WebDriverWait wait;
+  ChromeOptions options;
   
   @BeforeTest
   public void bt() throws InterruptedException {
-	 driver=new ChromeDriver();
+	 options=new ChromeOptions();
+	 options.addArguments("--disable-features=HeadlessMode");
+	 driver=new ChromeDriver(options);
 	 driver.manage().window().maximize();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	 wait=new WebDriverWait(driver, Duration.ofSeconds(10));
