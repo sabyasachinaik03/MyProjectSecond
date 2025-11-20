@@ -36,7 +36,8 @@ public class MySeleniumClass1 {
 				driver.switchTo().window(whparent);
 			}
 		}
-		System.out.println("Parent window reached");
+		System.out.println("Parent window reached...");
+		System.out.println("Trying merge conflict of Github");
 	}
 
 }
